@@ -1,166 +1,173 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>10 Novel Terbaik</title>
-<style>
-body{
-    font-family: Arial, sans-serif;
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
-    background:#f5f5f5;
-}
-h1{
-    text-align:center;
-}
-.card{
-    background:white;
-    border-radius:10px;
-    padding:15px;
-    margin-bottom:15px;
-    box-shadow:0 2px 5px rgba(0,0,0,0.1);
-}
-.category{
-    color:#2563eb;
-    font-size:14px;
-}
-.title{
-    font-size:20px;
-    font-weight:bold;
-    margin:8px 0;
-}
-.desc{
-    color:#555;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Novel Estetik</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    header p {
+      color: #cbd5e1;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px 30px 50px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 12px;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .card-content p {
+      margin: 5px 0;
+      font-size: 12px;
+      color: #cbd5e1;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 10px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      font-size: 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>📚 10 Novel Terbaik yang Wajib Dibaca</h1>
+<header>
+  <h1>📚 Katalog Novel Estetik</h1>
+  <p>Koleksi buku pilihan dengan desain modern</p>
+</header>
 
-<div class="card">
-    <div class="category">Novel Sejarah</div>
-    <div class="title">Laut Bercerita</div>
-    <div class="desc">
-        Kisah perjuangan para aktivis menjelang Reformasi 1998 yang menguras emosi.
+<div class="container">
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/3/3e/Bumi_Manusia_cover.jpg">
+    <div class="card-content">
+      <h3>Bumi Manusia</h3>
+      <p>Pramoedya Ananta Toer</p>
+      <a class="btn" href="#">Baca</a>
     </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/8/8b/Laskar_Pelangi_sampul.jpg">
+    <div class="card-content">
+      <h3>Laskar Pelangi</h3>
+      <p>Andrea Hirata</p>
+      <a class="btn" href="#">Baca</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/5/5d/Negeri_5_Menara.jpg">
+    <div class="card-content">
+      <h3>Negeri 5 Menara</h3>
+      <p>Ahmad Fuadi</p>
+      <a class="btn" href="#">Baca</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/1/1f/Bumi_Tere_Liye.jpg">
+    <div class="card-content">
+      <h3>Bumi</h3>
+      <p>Tere Liye</p>
+      <a class="btn" href="#">Baca</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/6/6b/Cantik_itu_Luka.jpg">
+    <div class="card-content">
+      <h3>Cantik Itu Luka</h3>
+      <p>Eka Kurniawan</p>
+      <a class="btn" href="#">Baca</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/TheAlchemist.jpg">
+    <div class="card-content">
+      <h3>The Alchemist</h3>
+      <p>Paulo Coelho</p>
+      <a class="btn" href="#">Baca</a>
+    </div>
+  </div>
+
 </div>
 
-<div class="card">
-    <div class="category">Fantasi</div>
-    <div class="title">Bumi</div>
-    <div class="desc">
-        Petualangan Raib dan teman-temannya menjelajahi dunia paralel.
-    </div>
-</div>
-
-<div class="card">
-    <div class="category">Inspiratif</div>
-    <div class="title">Laskar Pelangi</div>
-    <div class="desc">
-        Perjuangan anak-anak Belitung dalam meraih pendidikan.
-    </div>
-</div>
+<footer>
+  © 2026 Katalog Buku • Dibuat dengan GitHub Pages
+</footer>
 
 </body>
-</html><div class="desc">
-Perjuangan anak-anak Belitung dalam meraih pendidikan di tengah keterbatasan.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Negeri 5 Menara">
-<div class="content">
-<span class="category">Inspiratif</span>
-<div class="title">Negeri 5 Menara</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Perjalanan enam sahabat mengejar cita-cita dengan semangat Man Jadda Wajada.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Ayat-Ayat Cinta">
-<div class="content">
-<span class="category">Romantis</span>
-<div class="title">Ayat-Ayat Cinta</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Novel cinta Islami yang memadukan romansa, nilai agama, dan kehidupan mahasiswa.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Dilan 1990">
-<div class="content">
-<span class="category">Romantis</span>
-<div class="title">Dilan 1990</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Kisah cinta remaja yang ringan, lucu, dan sangat populer di Indonesia.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Cantik Itu Luka">
-<div class="content">
-<span class="category">Sastra</span>
-<div class="title">Cantik Itu Luka</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Mahakarya sastra Indonesia yang memadukan sejarah, mitos, dan realisme magis.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Perahu Kertas">
-<div class="content">
-<span class="category">Romantis</span>
-<div class="title">Perahu Kertas</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Kisah cinta dan perjalanan menemukan jati diri yang hangat dan menyentuh.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Hujan">
-<div class="content">
-<span class="category">Fiksi Ilmiah</span>
-<div class="title">Hujan</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Cerita tentang kehilangan, harapan, dan masa depan manusia setelah bencana besar.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-<div class="card">
-<img src="LINK_GAMBAR" alt="Ronggeng Dukuh Paruk">
-<div class="content">
-<span class="category">Klasik</span>
-<div class="title">Ronggeng Dukuh Paruk</div>
-<div class="price">⭐⭐⭐⭐⭐</div>
-<div class="desc">
-Novel klasik Indonesia yang menggambarkan kehidupan desa dengan sangat mendalam.
-</div>
-<a class="button" href="LINK_AFFILIATE" target="_blank">Lihat Buku</a>
-</div>
-</div>
-
-</div>
+</html>
