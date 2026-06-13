@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Novel Terbaik</title>
+  <title>Katalog Novel Affiliate</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
@@ -17,24 +17,154 @@
 
     header {
       text-align: center;
-      padding: 40px 20px;
+      padding: 35px 20px;
     }
 
     header h1 {
       margin: 0;
-      font-size: 28px;
-      font-weight: 600;
+      font-size: 26px;
     }
 
     header p {
       color: #cbd5e1;
-      margin-top: 8px;
-      font-size: 14px;
+      font-size: 13px;
     }
 
     .container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 15px;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 10px;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .card-content p {
+      margin: 4px 0;
+      font-size: 12px;
+      color: #cbd5e1;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 10px;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      font-size: 12px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>📚 Katalog Novel Affiliate</h1>
+  <p>Koleksi buku terbaik + link pembelian</p>
+</header>
+
+<div class="container">
+
+  <!-- BUMI MANUSIA -->
+  <div class="card">
+    <img src="https://i.ibb.co/hFDvxCxY/64755872bb89f2a1045225a88a809ed2.jpg" alt="Bumi Manusia">
+    <div class="card-content">
+      <h3>Bumi Manusia</h3>
+      <p>Pramoedya Ananta Toer</p>
+      <a class="btn" href="https://s.shopee.co.id/Lkpxvv541" target="_blank">
+        Beli Sekarang
+      </a>
+    </div>
+  </div>
+
+  <!-- LASKAR PELANGI -->
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/8/8b/Laskar_Pelangi_sampul.jpg">
+    <div class="card-content">
+      <h3>Laskar Pelangi</h3>
+      <p>Andrea Hirata</p>
+      <a class="btn" href="#" target="_blank">Beli Sekarang</a>
+    </div>
+  </div>
+
+  <!-- NEGERI 5 MENARA -->
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/5/5d/Negeri_5_Menara.jpg">
+    <div class="card-content">
+      <h3>Negeri 5 Menara</h3>
+      <p>Ahmad Fuadi</p>
+      <a class="btn" href="#" target="_blank">Beli Sekarang</a>
+    </div>
+  </div>
+
+  <!-- BUMI -->
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/1/1f/Bumi_Tere_Liye.jpg">
+    <div class="card-content">
+      <h3>Bumi</h3>
+      <p>Tere Liye</p>
+      <a class="btn" href="#" target="_blank">Beli Sekarang</a>
+    </div>
+  </div>
+
+  <!-- CANTIK ITU LUKA -->
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/id/6/6b/Cantik_itu_Luka.jpg">
+    <div class="card-content">
+      <h3>Cantik Itu Luka</h3>
+      <p>Eka Kurniawan</p>
+      <a class="btn" href="#" target="_blank">Beli Sekarang</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Katalog Novel Affiliate • GitHub Pages
+</footer>
+
+</body>
+</html>      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 20px;
       padding: 20px 30px 50px;
     }
